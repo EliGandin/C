@@ -26,4 +26,5 @@ int main(){
     printf("The second number is %lu\n", y);
 
     bitCount(x & y);
+    return 0;
 }
