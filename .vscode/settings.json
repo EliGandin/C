@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "mymat.h": "c",
+        "string.h": "c",
+        "stdio.h": "c"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
+}

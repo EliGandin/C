@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/elig/Project/C/Maman23/q2'
+gcc my_and.c -Wall -ansi -pedantic -o my_and
+make: Leaving directory '/home/elig/Project/C/Maman23/q2'
+ 

@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/elig/Project/C/Maman23/q3'
+gcc -Wall -ansi -pedantic -g -o lists_c  lists_c.c list_node_methods.c
+make: Leaving directory '/home/elig/Project/C/Maman23/q3'
+ 

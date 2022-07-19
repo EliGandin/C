@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/elig/Project/C/Maman22'
+gcc -Wall -ansi -pedantic -g -o mainmat  mainmat.c mymat.c
+make: Leaving directory '/home/elig/Project/C/Maman22'
+ 

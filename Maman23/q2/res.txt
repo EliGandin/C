@@ -1,0 +1,12 @@
+Result Num.1: 12
+Result Num.1 in Hexadecimal: c
+
+Result Num.2: 12
+Result Num.2 in Hexadecimal: c
+
+Result Num.3:12
+Result Num.3 in Hexadecimal: c
+
+Result Num.4: 0
+Result Num.4 in Hexadecimal: 0
+

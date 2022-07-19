@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* This function runs in 𝚯(n) */
 int scalar_product(int a[], int b[], int n)
 {
     int i;
@@ -9,6 +10,7 @@ int scalar_product(int a[], int b[], int n)
     {
         sum += a[i] * b[i];
     }
+    printf("Scalar product is %d\n", sum);
     return sum;
 }
 
@@ -16,7 +18,7 @@ int main()
 {
     int n;
     int i;
-    int *a;
+    int *a;     
     int *b;
 
     printf("Hello, this is a friendly message.\nPlease enter the dimension of the vectors\n");
@@ -27,17 +29,17 @@ int main()
         return 0;
     }
 
-    a = (int *)malloc(n * sizeof(int));
-    if (a == NULL)
+    a = (int *)malloc(n * sizeof(int));     /* We allocate memory according to the dimension of the vector*/
+    if (a == NULL)          
     {
-        printf("Unable to malloc \'a\' array\n");
+        printf("Unable to malloc \'a\' array\n");       /* Make sure the memory is allocted */
         return 0;
     }
-    b = (int *)malloc(n * sizeof(int));
+    b = (int *)malloc(n * sizeof(int));     /* We allocate memory according to the dimension of the vector*/
     if (b == NULL)
     {
         printf("Unable to malloc \'b\' array\n");
-        free(a);
+        free(a);        /* Free previously allocated memory */
         return 0;
     }
 
@@ -52,11 +54,16 @@ int main()
     {
         scanf("%d", &b[i]);
     }
-    printf("Scalar product is %d\n", scalar_product(a, b, n));
 
-    if(a != NULL){
-        free(a);
-        free(b);
+    scalar_product(a, b, n);
+
+    if (a != NULL)
+    {
+        free(a);        /* Free memory if allocated */
+    }
+    if (b != NULL)
+    {
+        free(b);        /* Free memory if allocated */
     }
     return 0;
 }
