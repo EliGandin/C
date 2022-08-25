@@ -1,6 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/elig/Project/C/Maman11'
-make: Leaving directory '/home/elig/Project/C/Maman11'
- 
-make: *** No targets specified and no makefile found.  Stop.
-
