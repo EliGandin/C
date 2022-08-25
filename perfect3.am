@@ -1,0 +1,12 @@
+; this file wont make entries file.
+.extern hi
+
+		 jmp love
+ mov #33, r12
+
+
+			hlt
+
+
+.string "tlltrr"
+
