@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul 19 13:35:18 2022
+# Make data base, printed on Fri Aug 26 13:39:33 2022
 
 # Variables
 
@@ -17,7 +17,7 @@ make: *** No rule to make target 'all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = VSCODE_WSL_EXT_LOCATION/up
+WSLENV = VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -27,15 +27,15 @@ WSLENV = VSCODE_WSL_EXT_LOCATION/up
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /home/elig/Project/C
+CURDIR := /home/elig/Project/C/Maman14- Final Project/C
 # makefile
 SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
 _ = /usr/bin/make
-# makefile
-MAKEFILE_LIST := 
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -47,11 +47,13 @@ VSCODE_CWD = /mnt/c/Users/eliga/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/elig/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/AdoptOpenJDK/jdk-11.0.11.9-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/eliga/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/eliga/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/eliga/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/eliga/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/eliga/AppData/Local/GitHubDesktop/bin:/snap/bin
+PATH = /home/elig/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/AdoptOpenJDK/jdk-11.0.11.9-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/eliga/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/eliga/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/eliga/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/eliga/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/eliga/AppData/Local/GitHubDesktop/bin:/snap/bin
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-121bf100-1d03-4584-aaaf-2bd9c3969e86.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-9bebc0ba-2fdf-4ae8-9bd1-0524ec489c44.sock
+# environment
+VSCODE_SERVER_TAR = /mnt/c/Users/eliga/AppData/Local/Temp/vscode-remote-wsl/e4503b30fc78200f846c62cf8091b76ff5547662/vscode-server-stable-linux-x64.tar.gz
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -59,11 +61,11 @@ LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:
 # automatic
 %F = $(notdir $%)
 # environment
-PWD = /home/elig/Project/C
+PWD = /home/elig/Project/C/Maman14- Final Project/C
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/6220_interop
+WSL_INTEROP = /run/WSL/8_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -73,7 +75,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = elig
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -91,7 +93,7 @@ MAKE_VERSION := 4.2.1
 # environment
 USER = elig
 # makefile
-.DEFAULT_GOAL := 
+.DEFAULT_GOAL := proj
 # environment
 NAME = DESKTOP-S3AJFL8
 # automatic
@@ -138,8 +140,10 @@ LANG = C
 TERM = xterm-256color
 # environment
 WSL_DISTRO_NAME = Ubuntu
+# environment
+MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=63/1024=6%, Rehash=0, Collisions=4/85=5%
+# Load=65/1024=6%, Rehash=0, Collisions=4/90=4%
 
 # Pattern-specific Variable Values
 
@@ -147,9 +151,9 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 2064, inode 50817): 16 files, no impossibilities.
+# . (device 2064, inode 54040): 39 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 39 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -158,25 +162,83 @@ WSL_DISTRO_NAME = Ubuntu
 # Files
 
 # Not a target:
+pre_processor.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+header.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 all:
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has not been updated.
 
+first_pass.o: first_pass.c header.h first_pass.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 10):
+	gcc -g -c -ansi -pedantic -Wall first_pass.c -o first_pass.o
+
+second_pass.o: second_pass.c header.h second_pass.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 12):
+	gcc -g -c -ansi -pedantic -Wall second_pass.c -o second_pass.o
+
 # Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
+pre_processor.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  File does not exist.
+#  Last modified 2022-08-26 13:39:21.634685988
 #  File has been updated.
-#  Failed to be updated.
+#  Successfully updated.
+
+# Not a target:
+first_pass.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+second_pass.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+proj: assembler.o functions.o pre_processor.o first_pass.o second_pass.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 2):
+	gcc -g -ansi -pedantic -Wall assembler.o functions.o pre_processor.o first_pass.o second_pass.o -o proj
+
+assembler.o: assembler.c header.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 4):
+	gcc -g -c -ansi -pedantic -Wall assembler.c -o assembler.o
+
+functions.o: functions.c header.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 6):
+	gcc -g -c -ansi -pedantic -Wall functions.c -o functions.o
 
 # Not a target:
 .DEFAULT:
@@ -185,26 +247,51 @@ makefile:
 #  File has not been updated.
 
 # Not a target:
-GNUmakefile:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
+first_pass.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+second_pass.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+pre_processor.o: pre_processor.c header.h pre_processor.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 8):
+	gcc -g -c -ansi -pedantic -Wall pre_processor.c -o pre_processor.o
+
+# Not a target:
+assembler.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+functions.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # files hash-table stats:
-# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# Load=19/1024=2%, Rehash=0, Collisions=0/52=0%
 # VPATH Search Paths
+ 
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 220 B / avg = 9 B
-# current buf: size = 8162 B / used = 220 B / count = 24 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 44 / storage = 558 B / avg = 12 B
+# current buf: size = 8162 B / used = 558 B / count = 44 / avg = 12 B
 
-# strcache performance: lookups = 27 / hit rate = 11%
+# strcache performance: lookups = 78 / hit rate = 43%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Tue Jul 19 13:35:18 2022
+# Load=44/8192=1%, Rehash=0, Collisions=1/78=1%
+# Finished Make data base on Fri Aug 26 13:39:33 2022
 
  

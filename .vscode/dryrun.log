@@ -1,6 +1,10 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/elig/Project/C'
-make: Leaving directory '/home/elig/Project/C'
+make: Entering directory '/home/elig/Project/C/Maman14- Final Project/C'
+gcc -g -c -ansi -pedantic -Wall assembler.c -o assembler.o
+gcc -g -c -ansi -pedantic -Wall functions.c -o functions.o
+gcc -g -c -ansi -pedantic -Wall pre_processor.c -o pre_processor.o
+gcc -g -c -ansi -pedantic -Wall first_pass.c -o first_pass.o
+gcc -g -c -ansi -pedantic -Wall second_pass.c -o second_pass.o
+gcc -g -ansi -pedantic -Wall assembler.o functions.o pre_processor.o first_pass.o second_pass.o -o proj
+make: Leaving directory '/home/elig/Project/C/Maman14- Final Project/C'
  
-make: *** No targets specified and no makefile found.  Stop.
-
