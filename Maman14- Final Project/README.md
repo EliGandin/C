@@ -1,4 +1,4 @@
-# C-Assembler-Project
+# C Assembler Project
 This is an Assembler project for unique 32 base system.
 This project is a major assignment during my studies at the University, the assignment is the main factor for the course "C programming".
 
